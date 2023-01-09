@@ -4,6 +4,8 @@ import IndexRoutes from './routes/index.routes.js'
 
 const app = express();
 
+app.use(express.json())
+
 // routes
 app.use(employeesRoutes);
 app.use(IndexRoutes)
