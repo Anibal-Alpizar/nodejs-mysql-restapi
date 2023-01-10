@@ -9,7 +9,6 @@ CREATE TABLE employee(
     PRIMARY KEY (id)
 );
 
-SHOW tables;
 
 DESCRIBE employee;
 
